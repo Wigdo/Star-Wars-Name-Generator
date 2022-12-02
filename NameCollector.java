@@ -10,7 +10,7 @@ public class NameCollector {
     public NameCollector ()
     {
         nameObj = new NameSet(getFirstName(), getLastName(), getTownName(), getMaidenName());
-        System.out.println("Your Star Wars name is: \n");
+        System.out.println("Your Star Wars name is:");
         System.out.print(nameObj.getFirstName().charAt(0) + "" + nameObj.getFirstName().charAt(1) + "" + nameObj.getFirstName().charAt(2));
         System.out.print(nameObj.getLastName().charAt(0) + "" + nameObj.getLastName().charAt(1));
         System.out.print(" " + nameObj.getMaidenName().charAt(0) + "" + nameObj.getMaidenName().charAt(1));
